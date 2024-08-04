@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/elleviate/static/css/main.0e2da0b5.css",
-    "main.js": "/elleviate/static/js/main.f099aeb4.js",
-    "static/js/453.2a82e7ac.chunk.js": "/elleviate/static/js/453.2a82e7ac.chunk.js",
-    "index.html": "/elleviate/index.html",
-    "main.0e2da0b5.css.map": "/elleviate/static/css/main.0e2da0b5.css.map",
-    "main.f099aeb4.js.map": "/elleviate/static/js/main.f099aeb4.js.map",
-    "453.2a82e7ac.chunk.js.map": "/elleviate/static/js/453.2a82e7ac.chunk.js.map"
+    "main.css": "/elleviate/react-app/static/css/main.0e2da0b5.css",
+    "main.js": "/elleviate/react-app/static/js/main.c7825f7c.js",
+    "static/js/453.2a82e7ac.chunk.js": "/elleviate/react-app/static/js/453.2a82e7ac.chunk.js",
+    "index.html": "/elleviate/react-app/index.html",
+    "main.0e2da0b5.css.map": "/elleviate/react-app/static/css/main.0e2da0b5.css.map",
+    "main.c7825f7c.js.map": "/elleviate/react-app/static/js/main.c7825f7c.js.map",
+    "453.2a82e7ac.chunk.js.map": "/elleviate/react-app/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e2da0b5.css",
-    "static/js/main.f099aeb4.js"
+    "static/js/main.c7825f7c.js"
   ]
 }
