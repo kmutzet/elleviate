@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Find a Doctor</title>
+      <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="navbar">
+          <a href="index.html" class="navbar-logo">Elleviate</a>
+          <a href="findDoc.html" class="active-button">Find a Doctor</a>
+          <a href="aboutUs.html">About Us</a>
+      </div>
+      <div class="header-section">
+          <img src="https://cdn.glitch.global/22b02521-8d9f-48fd-bd65-d74f091c9a80/home.image.png?v=1720680014556" alt="Doctor talking to patient">
+          <div class="search-section">
+              <h1>We're Glad You're Here<br>Find the Perfect OB/GYN for You</h1>
+              <div class="search-box">
+                  <input type="text" placeholder="Search by insurance...">
+                  <input type="text" placeholder="Enter city, state, or zip">
+                  <button id="searchButton">Search</button>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>What can we provide for you?</h2>
+      <div class="infographic-section">
+        <div class="infographic-item">
+          <h3>Interactive Map Search</h3>
+          <p>Our interactive map search allows visitors to filter through OB/GYN caregivers in the Washington area and learn more about the professionals in the area.</p>
+        </div>
+        <div class="infographic-item">
+          <h3>Doctor Profiles</h3>
+          <p>We provide detailed information about gynecologists, such as their contact information, services, which insurances they accept, and more.</p>
+        </div>
+        <div class="infographic-item">
+          <h3>Community-Provided Reviews</h3>
+          <p>On doctor profiles, visitors can see reviews of other people's experiences with that specific doctor. This helps to provide visitors with personalized insights and informed choices.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById('searchButton').addEventListener('click', function() {
+          window.location.href = 'docProfile.html';
+      });
+    </script>
+  </body>
+</html>

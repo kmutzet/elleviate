@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background-color: #d23c77;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+}
+
+.buttons-container {
+  /* margin-left: auto; */
+  display: flex;
+  /* gap: 15px; */
+}
+
+.arrow-button {
+  background-color: #d23c77;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.arrow-button:hover {
+  background-color: #a32a58;
+}
+
+.header-section-a {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("https://cdn.glitch.global/22b02521-8d9f-48fd-bd65-d74f091c9a80/home.image.png?v=1720680014556");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  /* height: 100vh; Ensure it takes full viewport height */
+}
+
+.header-section-a.white-background {
+  background-image: none;
+  background-color: #ffffff;
+}
+
+.header-section-a img {
+  width: 100%;
+  height: auto;
+  display: none; /* Hide the image element */
+}
+
+.search-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.search-section h1 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.search-box input, .search-box select {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.search-box input::placeholder, 
+.search-box select::placeholder {
+  color: #000000; 
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #d23c77;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #a32a58;
+}
+
+.doctorbox {
+  text-align:left;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.infographic-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.infographic-section h2,
+.infographic-item h3,
+.infographic-item p {
+  color: #000000;
+}
+
+.infographic-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #d23c77;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 270px;
+}
+
+.featured-sources-wrapper {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.featured-sources {
+  display: flex;
+  /* justify-content: center; */
+ 
+}
+
+.source-card {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  padding: 10px; 
+}
+
+.source-card a h3 {
+  font-size: 1em; 
+  font-weight: bold; 
+  color: #000000; 
+  text-align: center; 
+  margin-top: 10px;
+}
+
+.source-card a {
+  text-decoration: none; 
+}
+
+.article-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .search-box input,
+  .search-box button {
+    width: 100%;
+  }
+}
+
+/* About us */
+.about-section {
+  text-align: left;
+}
+
+.about-section h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 40px);
+}
+
+.member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.member-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.member-item p {
+  font-size: 0.9em;
+  color: #666666;
+}
+.about-section p {
+  font-size: 0.9em;
+  color: #666666;
+}
+
+.member-item h3 {
+  font-size: 1em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.filter-container {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left:auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: #d23c77;
+  border-radius: 50px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #a32a58;
+  color: black;
+}
+
+.doctor-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Ensure this provides spacing below the navbar */
+.main-content {
+  margin-top: 20px; /* Adjust as needed to space out content from the Navbar */
+}
+
+.fluid-container {
+  display: flex;
+  width: 100%;
+  overflow-y: scroll;
+  height: 800px;
+}
+
+.map-container {
+  flex: 2;
+  /* background-color: #e0e0e0; */
+}
+
+.cards-container {
+  flex: 1;
+  padding: 20px;
+  padding-top: 0px;
+  overflow-y: scroll;
+}
+
+#cards-title {
+  background-color: #d23c77;
+  color: white;
+  padding: 20px;
+}
+
+.small-text {
+  color: #de598e;
+}
+.map-feature {
+  height: 100%;
+  width: 100%;
+}
+
+.map-filter {
+  justify-content: left;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.active-button {
+  font-family: 'Lato', sans-serif;
+}

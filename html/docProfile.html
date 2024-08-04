@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"> Elleviate</a>
+        <a href="findDoc.html"> Find a Doctor</a>
+        <a href="aboutUs.html"> About Us</a>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2>{name.credential} {name.first} {name.last}</h2>
+                        <h5 class="text-muted">{provider_type}</h5>
+                        <p>
+                            <span class="badge bg-success" style="background-color: #28a745;">{gender}</span>
+                            <span class="badge bg-primary" style="background-color: #007bff;">Ambetter</span>
+                            <span class="badge bg-info" style="background-color: #17a2b8;">Bluecross</span>
+                        </p>
+                        <p></p>
+                        <p><a href="#">Read More</a></p>
+                        <p class="clinic-address">
+                            <strong>Clinic Place Name</strong><br>
+                            123 Example St.<br>
+                            Seattle, WA 12345<br>
+                            <i class="fas fa-phone"></i> 123-456-7890
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h4>Qualifications</h4>
+                        <p>Verified by Psychology Today<br>
+                        Licensed by State of Washington / LH00009449<br>
+                        Christie L Messina</p>
+                        <p>Certificate from XXX University</p>
+                        <h4>Services Provided</h4>
+                        <ul>
+                            <li>Preconception counseling</li>
+                            <li>Prenatal care</li>
+                            <li>Labor and delivery</li>
+                            <li>Postpartum care</li>
+                            <li>Lactation support</li>
+                            <li>Gynecologic exams</li>
+                            <li>Routine well woman exams</li>
+                            <li>Contraception</li>
+                            <li>Sexually transmitted infections (STIs) screening</li>
+                            <li>Perimenopause and menopause care</li>
+                        </ul>
+                        <p><strong>Languages:</strong> English, Spanish</p>
+                        <h4>Finances</h4>
+                        <p>$125 Per Session</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Add FontAwesome for icons -->
+    <script src="app.js"></script> <!-- Include the JavaScript file -->
+    <script src="networkManager.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

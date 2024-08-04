@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+  
+  .navbar {
+    background-color: #d23c77;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    border-radius: 30px;
+    background-color: #de598e;
+    color: #ffffff;
+  }
+  
